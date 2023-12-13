@@ -27,19 +27,27 @@ Oleh karena itu, fokus utama Django Apparel saat ini adalah memaksimalkan strate
 
 #### Expected Deliverable
 
-`Bersikan list ekspektasi hasil yang dicapai secara umum, misal bisa menyelesaikan Feature A, B, dan C.`
-
+1. Create DAG's untuk ingest data menggunakan airflow (mandatory)
+2. Ekspetasi di raw/staging layer akan terbuat sebanyak 7 tables. (mandatory)
+3. Transformation data untuk membuat data modeling dari raw/staging layer dengan requirements sebagai berikut: (mandatory)
+    - dimension layer
+        - `TBA`
+    - fact layer
+        - `TBA`
+    - datamart layer
+        - `TBA`
+4. Visualisasi data dari table datamart menggunakan metabase atau visualize tools lainnya (optional)
 #### Success Criteria
 
-`Sukses kriteria adalah penpaian dengan matris yang  kongkrit, contoh: menylesaikan fitur A dengan testing coverate 80%, implementati Trunk Base Development, Implementasi Code Quality, Implmentasi CI/CD, dan lain-lain.`
+`TBA`
 
 #### Documentation
 
-`Jika ada dokumentasi tambahan yang diberikan ke Mentees.`
+`TBA`
 
 #### Assest
 
-`Jika ada file atau asset pendukung yang diberikan ke Mentees.`
+[Dataset untuk di ingest](/data/)
 
 ## 📆 Schedule Meeting and Format Mentoring
 
