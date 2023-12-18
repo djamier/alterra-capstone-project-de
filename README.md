@@ -27,7 +27,7 @@ Oleh karena itu, fokus utama Django Apparel saat ini adalah memaksimalkan strate
 
 #### Expected Deliverable
 
-1. Create DAG's untuk ingest [data ini](/data/) ke postgres menggunakan Airflow
+1. Create DAG's untuk ingest [data ini](/dataset/) ke postgres menggunakan Airflow
 2. Ekspetasi data yang di ingest terbuat sebanyak 7 table
 3. Transform data untuk membuat kimball data modeling dengan requirements sebagai berikut
     - Dimension layer
@@ -42,7 +42,9 @@ Oleh karena itu, fokus utama Django Apparel saat ini adalah memaksimalkan strate
 
 #### Success Criteria
 
-`TBA`
+1. Sukses ingest data dari beberapa format file ke database menggunakan airflow.
+2. Berhasil membuat layering data model dengan joinan table yang tepat.
+3. Berhasil menyajikan isi data dalam data modeling sesuai requirements.
 
 #### Documentation
 
@@ -50,7 +52,7 @@ Link referensi untuk kimball data modelling https://www.youtube.com/watch?v=gRE3
 
 #### Assest
 
-[Dataset untuk di ingest](/data/)
+[Dataset untuk di ingest](/dataset/)
 
 ## 📆 Schedule Meeting and Format Mentoring
 
